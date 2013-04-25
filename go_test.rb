@@ -18,3 +18,16 @@ class GoTest < MiniTest::Unit::TestCase
     assert_instance_of Thread, go {}
   end
 end
+
+class ChannelTest < MiniTest::Unit::TestCase
+  def test_new_channel_size_is_zero
+    assert_equal 0, Go::Channel.new.size
+  end
+
+  def test_can_push_to_channel
+    channel = Go::Channel.new
+    channel << 1
+
+    assert_equal 1, channel.size
+  end
+end

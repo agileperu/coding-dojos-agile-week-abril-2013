@@ -6,4 +6,4 @@ Intento de implementar algunos [Go primitives](http://golang.org/doc/effective_g
 
 Necesita una versión de Ruby mayor a 1.9:
 
-  ruby go_test.rb
+    ruby go_test.rb

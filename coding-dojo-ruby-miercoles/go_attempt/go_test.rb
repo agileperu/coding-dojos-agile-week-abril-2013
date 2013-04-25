@@ -9,9 +9,10 @@ class GoTest < MiniTest::Unit::TestCase
   def test_go_executes_block
     a = nil
 
-    routine = go { a = 'hola' }
+    go { a = 'hola' }
+    sleep 0.1
 
-    assert_equal 'hola', routine.join.value
+    assert_equal 'hola', a
   end
 
   def test_go_executes_block_in_a_thread

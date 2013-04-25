@@ -7,11 +7,15 @@ module Go
     end
 
     def << value
-      @queue.push value
+      @queue << value
     end
 
     def size
       @queue.size
+    end
+
+    def pop
+      @queue.pop
     end
   end
 end

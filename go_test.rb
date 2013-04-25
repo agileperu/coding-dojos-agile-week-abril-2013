@@ -21,13 +21,20 @@ end
 
 class ChannelTest < MiniTest::Unit::TestCase
   def test_new_channel_size_is_zero
-    assert_equal 0, Go::Channel.new.size
+    assert_equal 0, channel.size
   end
 
   def test_can_push_to_channel
-    channel = Go::Channel.new
-    channel << 1
+    c = channel
+    c << 1
 
-    assert_equal 1, channel.size
+    assert_equal 1, c.size
+  end
+
+  def test_can_consume
+    c = channel
+    c << 1
+
+    assert_equal 1, c.pop
   end
 end

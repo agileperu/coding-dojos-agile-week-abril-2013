@@ -1,5 +1,5 @@
 module Kernel
-  def go block
-    Go::Routine.go block
+  def go *args, &block
+    Go::Routine.go *args, &block
   end
 end

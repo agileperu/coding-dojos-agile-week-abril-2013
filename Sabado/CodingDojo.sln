@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{115729C4-76CC-4455-B31E-71148CC5895B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{CC90DC56-93FD-42FA-81E0-31E3AEF064B4}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComercioElectronico", "ComercioElectronico\ComercioElectronico.csproj", "{F66473A3-5F2B-4F04-A681-879011143A4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComercioElectronico.DescuentosEnero", "ComercioElectronico.DescuentosEnero\ComercioElectronico.DescuentosEnero.csproj", "{40DB777D-93C9-459B-87BA-E0C76BC513E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComercioElectronico.DescuentosFebrero", "ComercioElectronico.DescuentosFebrero\ComercioElectronico.DescuentosFebrero.csproj", "{473B3172-73E3-434A-A449-48657AE4B412}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComercioElectronico.Contratos", "ComercioElectronico.Contratos\ComercioElectronico.Contratos.csproj", "{50CEA2DF-94A3-47F8-BE54-CC87931283B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{115729C4-76CC-4455-B31E-71148CC5895B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{115729C4-76CC-4455-B31E-71148CC5895B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{115729C4-76CC-4455-B31E-71148CC5895B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{115729C4-76CC-4455-B31E-71148CC5895B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F66473A3-5F2B-4F04-A681-879011143A4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F66473A3-5F2B-4F04-A681-879011143A4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F66473A3-5F2B-4F04-A681-879011143A4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F66473A3-5F2B-4F04-A681-879011143A4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40DB777D-93C9-459B-87BA-E0C76BC513E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40DB777D-93C9-459B-87BA-E0C76BC513E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40DB777D-93C9-459B-87BA-E0C76BC513E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40DB777D-93C9-459B-87BA-E0C76BC513E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{473B3172-73E3-434A-A449-48657AE4B412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{473B3172-73E3-434A-A449-48657AE4B412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{473B3172-73E3-434A-A449-48657AE4B412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{473B3172-73E3-434A-A449-48657AE4B412}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50CEA2DF-94A3-47F8-BE54-CC87931283B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50CEA2DF-94A3-47F8-BE54-CC87931283B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50CEA2DF-94A3-47F8-BE54-CC87931283B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50CEA2DF-94A3-47F8-BE54-CC87931283B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
